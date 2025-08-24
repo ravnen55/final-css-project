@@ -1,0 +1,51 @@
+.skiptomain {;
+            left:-999px;
+            top:auto;
+            display: block;
+            position: relative;
+            
+            padding: 0px 0px 10px 0px;
+            }
+
+nav {border-style: solid;
+ background-color: beige;
+    border-bottom-color: coral;}
+
+.skiptomain:focus {left:0;}
+
+div {
+    background-color: beige;}
+
+h1 {color:chocolate;}
+
+footer {border-style: dotted;
+        background-color: blueviolet;}
+
+.bookiecontainer {display: flex;
+                
+                width: 95%;
+               
+                flex-wrap: wrap;
+                
+            }
+
+.bookiecontainer > div {padding: 5px;
+            background-color: rgb(0, 255, 106);
+            border-style: solid;
+            margin: 10px;
+            padding: 20px;
+            font-size: 30px;}
+
+.bookiepagemain{display: grid;
+                grid-template-columns: 80% 19%;}
+
+nav  img {border-width: 3px;
+           border-style: dotted;
+           border-color: red;
+           box-sizing: border-box;
+           border-radius: 50%;
+           padding: 5px;
+           width: 60%;
+           transition: width 2s;
+               }
+nav  img:hover {width: 100%}
