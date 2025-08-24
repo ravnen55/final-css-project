@@ -39,13 +39,15 @@ footer {border-style: dotted;
 .bookiepagemain{display: grid;
                 grid-template-columns: 80% 19%;}
 
-nav  img {border-width: 3px;
-           border-style: dotted;
-           border-color: red;
-           box-sizing: border-box;
-           border-radius: 50%;
-           padding: 5px;
-           width: 60%;
-           transition: width 2s;
-               }
+    nav  img {border-width: 3px;
+            border-style: dotted;
+            border-color: red;
+            box-sizing: border-box;
+            border-radius: 50%;
+            padding: 5px;
+            width: 60%;
+            transition: width 2s;
+                }
 nav  img:hover {width: 100%}
+
+nav .bookiecontainer > div:nth-child(odd) img { border-color: black; }
