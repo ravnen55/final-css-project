@@ -19,7 +19,8 @@ div {
 h1 {color:chocolate;}
 
 footer {border-style: dotted;
-        background-color: blueviolet;}
+        color: black;
+        background-color: white}
 
 .bookiecontainer {display: flex;
                 
